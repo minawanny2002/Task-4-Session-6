@@ -1,0 +1,1435 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar
+{
+    width: 0;
+}
+
+.one-third {
+    background-color: black;
+    height: 100vh;
+}
+
+
+
+
+.first-nav {
+    position: relative;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15px 15px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+nav img {
+    padding-left: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.menu {
+    display: none;
+    align-items: center;
+    margin-right: 1000px;
+
+}
+
+.menu a {
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav .login {
+
+
+    position: absolute;
+    right: 10px;
+    border-radius: 20px;
+    padding: 10px 25px;
+    align-content: center;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+
+}
+
+.menu a:hover {
+    color: crimson;
+}
+
+.hamburger {
+    appearance: none;
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.hamburger span {
+    color: white;
+    font-size: 50px;
+
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.mobile-menu {
+    background-image: url(./background_blur.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    position: fixed;
+    /* top: 0;
+    left: 0; */
+    width: 100vw;
+    height: 100%;
+    z-index: 98;
+    padding-top: 50px;
+    opacity: 0;
+    transform: translateY(-100%);
+    color: white;
+
+    transition: 0.5s;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.slogan {
+    display: flex;
+    width: 11rem;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.slogan p {
+    margin: 0;
+    margin-top: 8px;
+}
+
+.exit {
+    margin-right: 50px;
+}
+
+.mobile-menu .line {
+    z-index: 98;
+    width: 200px;
+    height: 5px;
+    border: none;
+    background-color: crimson;
+    border-radius: 50px;
+    margin-left: 60px;
+}
+
+.mobile-menu.is-open {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.mobile-menu a {
+    display: block;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-left: 50px;
+
+}
+
+.mobile-menu .login2 {
+    color: crimson;
+}
+
+.mobile-menu a:hover {
+    color: red;
+}
+
+nav p {
+
+    margin-top: 0px;
+    margin-right: 170px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: inline;
+
+
+}
+
+nav span {
+    font-size: 10px;
+    color: gray;
+    font-weight: 100;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    padding-top: 70px;
+
+}
+.w
+{
+    display: flex;
+    flex-direction:column;
+    width: 50%;
+}
+
+.par {
+    color: white;
+
+    font-size: 80px;
+
+
+}
+
+.msp-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.msp-logo {
+
+
+    height: 50vh;
+    width: 800px;
+    margin-top: 80px;
+
+}
+
+span {
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+
+.search-bar {
+    position: relative;
+    width: 80%;
+    height: 7vh;
+    margin-top: 40px;
+
+    background-image: url(./background_blur.png);
+    border-radius: 35px;
+
+
+}
+
+.search-bar input {
+    width: 100%;
+}
+
+.search {
+    background: transparent;
+    border: transparent;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    color: gray;
+    padding-left: 18px;
+    padding-top: 7px;
+
+
+}
+
+.arrow1 {
+    position: absolute;
+    color: #e44c21;
+    right: 30px;
+    top: 8px;
+
+
+
+}
+
+.photos-1 {
+    width: 600px;
+    height: 13vh;
+    margin-top: 50px;
+    display: flex;
+    margin-left: 0;
+
+}
+
+.marcio {
+    width: 80px;
+    height: 80px;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 50%;
+    position: relative;
+    border-width: 4px;
+    z-index: 3;
+
+
+
+}
+
+.lola {
+
+    width: 80px;
+    height: 80px;
+    border-color: chartreuse;
+    border-style: solid;
+    border-radius: 50%;
+    position: relative;
+    left: -20px;
+    z-index: 2;
+    border-width: 4px;
+
+}
+
+.steshka {
+    width: 80px;
+    height: 80px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    left: -40px;
+    border-width: 4px;
+}
+
+.rein {
+    width: 80px;
+    height: 80px;
+    border-color: #e44c21;
+    border-style: solid;
+    border-radius: 50%;
+    position: relative;
+    left: -60px;
+    z-index: 0;
+    border-width: 4px;
+}
+
+.viewer {
+    padding-top: 20px;
+    display: inline-block;
+    color: gray;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.liked {
+    padding-top: 20px;
+    color: gray;
+    /* padding-left: 20px; */
+    font-size: 20px;
+
+
+}
+
+
+.two-third {
+
+    height: 120vh;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "like_nav like_nav like_nav" "card1 card2 card3" "card4 card5 card6";
+    
+
+
+}
+.like-nav {
+    width: 100%;
+    height: 28vh;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.like-nav p {
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.how-does {
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+    color:#e44c21;
+}
+
+.amet {
+    color: gray;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.b2 {
+    margin-top: 20px;
+    margin-right: 45px;
+    position: relative;
+
+}
+
+.button-view {
+    background-color: #e44c21;
+    color: aliceblue;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 300;
+    border: transparent;
+    padding-left: 30px;
+    margin-top: 40px;
+    margin-left: -80px;
+
+}
+
+.arrow2 {
+    color: white;
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 48px;
+
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: auto;
+    gap: 40px;
+}
+
+.card {
+
+    border: 2px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px 0;
+    width: 100%;
+}
+
+
+.marcio-1 {
+    width: 80px;
+    height: 80px;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 4px;
+}
+
+.jane-cooper {
+
+
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.president {
+
+    color: gray;
+    font-size: 20px;
+    margin-left: 4px;
+
+}
+
+.b3 {
+    position: relative;
+}
+
+.arrow3 {
+    color: gray;
+    position: absolute;
+    padding-top: 27px;
+    padding-left: 110px;
+}
+
+.button-view-1 {
+    background-color: white;
+    color: #e44c21;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 200;
+    border: 2px solid gray;
+    margin-top: 15px;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: -3px;
+
+}
+
+.card2 {
+    grid-area: card2;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 15px;
+    width: 280px;
+    height: 240px;
+    margin-left: 90px;
+    padding-top: 15px;
+    padding-left: 25px;
+    box-shadow: 0 0 100px 0px;
+
+
+}
+
+.lola-1 {
+    width: 80px;
+    height: 80px;
+    border-color: chartreuse;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 4px;
+}
+
+.card3 {
+    grid-area: card3;
+    margin-right: 50px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 15px;
+    width: 280px;
+    height: 240px;
+    margin-right: 150px;
+    padding-top: 15px;
+    padding-left: 25px;
+    box-shadow: 0 0 100px 0px;
+}
+
+.steshka1 {
+    width: 80px;
+    height: 80px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 4px;
+}
+
+.card4 {
+    margin-left: 50px;
+    grid-area: card4;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 15px;
+    width: 280px;
+    height: 240px;
+    margin-left: 150px;
+    padding-top: 15px;
+    padding-left: 25px;
+    box-shadow: 0 0 100px 0px;
+
+
+}
+
+.rein1 {
+    width: 80px;
+    height: 80px;
+    border-color: #e44c21;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 4px;
+}
+
+.card5 {
+    grid-area: card5;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 15px;
+    width: 280px;
+    height: 240px;
+    margin-left: 90px;
+    padding-top: 15px;
+    padding-left: 25px;
+    box-shadow: 0 0 100px 0px;
+
+
+}
+
+.radu {
+    width: 80px;
+    height: 80px;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 4px;
+}
+
+.card6 {
+    grid-area: card6;
+    margin-right: 150px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 15px;
+    width: 280px;
+    height: 240px;
+
+    padding-top: 15px;
+    padding-left: 25px;
+    box-shadow: 0 0 100px 0px;
+
+
+}
+
+.mateus {
+    width: 80px;
+    height: 80px;
+    border-color: chartreuse;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 4px;
+}
+
+
+.three-third {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+.par-3 {
+   
+    width: 100%;
+    height: 25vh;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.simple-pricing {
+    color: #e44c21;
+    font-weight: bold;
+    font-size: 65px;
+
+}
+
+.amet1 {
+    font-size: 40px;
+    color: gray;
+    margin-top: -15px;
+}
+
+.dolor1 {
+
+    font-size: 40px;
+    color: gray;
+    margin-top: -15px;
+    text-align: center;
+}
+
+.second-cards {
+    display: grid;
+    width: 70%;
+    margin: auto;
+    height: 60vh;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    padding-top: 20px;
+   
+
+
+
+}
+
+.c1 {
+    
+
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+
+.c2 {
+    
+    background-image: url(./background_blur.png);
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.c3 {
+    
+   
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.high {
+
+    color: white;
+    font-size: 25px;
+}
+
+sup {
+    font-size: 18px;
+}
+
+.thirty {
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.month {
+    color: grey;
+    font-size: 15px;
+}
+
+.get-our {
+
+    color: grey;
+    font-size: 15px;
+
+}
+
+.hr {
+    margin-top: 30px;
+
+}
+
+.check {
+    color: grey;
+    position: absolute;
+    margin-top: 8px;
+
+}
+
+.true-tick {
+    position: relative;
+    margin-top: 24px;
+}
+
+.true-tick p {
+
+    color: white;
+    margin-left: 32px;
+    font-weight: bold;
+}
+
+.choose-plan {
+    background-color: transparent;
+    color: grey;
+    border: 1px solid grey;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 22px;
+}
+
+.check2 {
+    color: white;
+    position: absolute;
+    margin-top: 8px;
+
+}
+
+.choose-plan2 {
+    background-color: white;
+    color: black;
+    border: 1px solid grey;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 22px;
+}
+
+.most-popular {
+
+    position: absolute;
+    align-content: center;
+    top: 50px;
+    right: 0;
+    background-color: #e44c21;
+    color: black;
+    font-weight: bold;
+    border: transparent;
+    width: 120px;
+    height: 30px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+.radio {
+    position: relative;
+    left: 450px;
+}
+
+.manual-btn {
+    width: 20px;
+    height: 20px;
+    margin: 8px;
+
+}
+
+.manual-btn:checked {
+    accent-color: #e44c21;
+    background-color: black;
+}
+
+
+.footer {
+
+    background-image: url(./background_blur.png);
+    background-size: 100%;
+    display: grid;
+    height: 50vh;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+}
+
+.sl1 {
+    padding: 30px;
+    background-color: transparent;
+    
+
+}
+
+.sl1 img {
+    width: 80px;
+    height: 80px;
+}
+
+.sl1 p {
+    position: relative;
+    top: -18px;
+    left: 10px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    display: inline-block;
+
+
+}
+
+.sl1 span {
+    font-size: 15px;
+    color: gray;
+    font-weight: 100;
+}
+
+.sl1 .website {
+    width: 250px;
+    position: relative;
+    top: 15px;
+    font-size: 16px;
+    color: gray;
+    font-weight: 100;
+}
+
+.sl1 .read-more {
+    position: relative;
+    top: 50px;
+    right: 250px;
+    background-color: transparent;
+    height: 30px;
+    width: 100px;
+    color: white;
+    border: none;
+
+}
+
+.sl1 .arrow4 {
+    margin-left: 5px;
+    color: gray;
+}
+
+.ico {
+
+    position: relative;
+    top: 60px;
+}
+
+.fa-brands {
+    color: grey;
+    padding: 5px;
+}
+
+.sl2 {
+
+    background-color: transparent;
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+
+
+
+}
+
+.sl2 h2 {
+    color: white;
+    margin-bottom: 50px;
+
+
+}
+
+label {
+    margin: 5px;
+    display: block;
+    color: grey;
+    font-size: 23px;
+
+}
+
+.sl3 {
+
+    background-color: transparent;
+    padding: 45px;
+
+}
+
+.sl3 h2 {
+    color: white;
+    margin-bottom: 50px;
+
+}
+
+.sl4 {
+
+    padding: 45px;
+    background-color: transparent;
+
+
+
+}
+
+.sl4 h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.sl4 hr {
+    background-color: #e44c21;
+    border: none;
+    height: 5px;
+    width: 290px;
+    border-radius: 50px;
+    margin-bottom: 25px;
+}
+
+.sl4 label {
+    margin-top: 25px;
+}
+
+.sl4 i {
+    color: white;
+    margin-right: 5px;
+}
+
+
+@media (min-width:768px) {
+
+    .mobile-menu,
+    .hamburger {
+        display: none;
+
+    }
+
+
+    .menu {
+        display: flex !important
+    }
+
+    .hidden {
+        display: flex;
+    }
+}
+
+@media (max-width:1300px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .two-third {
+        height: 170vh;
+    }
+    .three-third
+    {
+        height: 250vh;
+    }
+    .second-cards
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .c1,.c2,.c3
+    {
+        max-width: 500px;
+    }
+    .footer{
+        grid-template-columns: repeat(2,1fr);
+        height: 100vh;
+    }
+}
+
+@media (max-width:780px) {
+    .w {
+        width: 100%;
+    }
+
+    .par {
+        margin-left: 50px;
+        font-size: 300%;
+
+    }
+
+    .msp-logo {
+        display: none;
+    }
+
+    .search-bar {
+
+        margin-left: 40px;
+
+    }
+
+    .photos-1 {
+        width: 100%;
+        margin-left: 50px;
+    }
+    .like-nav p {
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+    .arrow2 {
+        color: white;
+        position: absolute;
+        padding-left: 25px;
+        padding-top: 65px;
+    
+    }
+    .b2
+    {
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .button-view {
+        background-color: #e44c21;
+        color: aliceblue;
+        border-radius: 30px;
+        width: 140px;
+        height: 40px;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 200;
+        border: transparent;
+        padding-left: 20px;
+        margin-top: 60px;
+        margin-left: -80px;
+    }
+    .marcio {
+        display: inline;
+        width: 70px;
+        height: 70px;
+        border-color: blue;
+        border-style: solid;
+        border-radius: 50%;
+        /* position: relative; */
+        border-width: 4px;
+        z-index: 3;
+        /* left: -40px; */
+    
+    
+    
+    }
+    
+    .lola {
+    
+        display: inline;
+        width: 70px;
+        height: 70px;
+        border-color: chartreuse;
+        border-style: solid;
+        border-radius: 50%;
+        /* position: relative;
+        left: -60px; */
+        z-index: 2;
+        border-width: 4px;
+    
+    }
+    
+    .steshka {
+        display: inline;
+        width: 70px;
+        height: 70px;
+        border-color: white;
+        border-style: solid;
+        border-radius: 50%;
+        /* position: relative; */
+        z-index: 1;
+        /* left: -80px; */
+        border-width: 4px;
+    }
+    
+    .rein {
+        display: inline;
+        width: 70px;
+        height: 70px;
+        border-color: #e44c21;
+        border-style: solid;
+        border-radius: 50%;
+        /* position: relative;
+        left: -110px; */
+        z-index: 0;
+        border-width: 4px;
+    }
+    .how-does
+    {
+        padding-bottom: 50px;
+        font-size: 45px;
+    }
+    .amet
+    {
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+
+    .grid {
+        margin-top: 70px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .two-third {
+        height: 320vh;
+    }
+    .three-third
+    {
+        height: 100vh;
+    }
+
+    .par-3 {
+   
+        background-color: black;
+        width: 100%;
+        height: 25vh;
+        text-align: center;
+    }
+    
+    .simple-pricing {
+        color: #e44c21;
+        font-weight: bold;
+        font-size: 40px;
+    
+    }
+    
+    .amet1 {
+        font-size: 20px;
+        color: gray;
+        margin-top: -15px;
+    }
+    
+    .dolor1 {
+    
+        font-size: 20px;
+        color: gray;
+        margin-top: -15px;
+        text-align: center;
+    }
+    .second-cards {
+        
+        width: 70%;
+        margin: auto;
+        height: 70vh;
+        grid-template-columns: repeat(3, 1fr);
+        overflow-x: scroll;
+        gap: 100px;
+        padding-top: 20px;
+       
+    }
+    .c1,.c2,.c3{
+        min-width:300px ;
+    }
+    .radio{
+        display: none;
+    }
+
+    .footer {
+        grid-template-columns: repeat(1, 1fr);
+        height: 200vh;
+        background-size: cover;
+    }
+
+    .card {
+        color: white;
+        box-shadow: 0 0 0 0;
+    }
+
+    .card .president {
+        color: gray;
+    }
+
+    .two-third {
+        background-color: black;
+    }
+
+    .button-view-1 {
+        background-color: black;
+    }
+    .sl1,.sl2,.sl4{
+        max-width: 350px;
+    }
+
+}
+@media (max-width:400px)
+{
+    .one-third{
+        
+    }
+    
+    span {
+    
+        font-size: 40px;
+        
+    }
+  
+   
+    
+    .par {
+        color: white;
+    
+        font-size: 30px;
+    
+    
+    }
+    
+    
+    
+    
+    
+ 
+    
+    .arrow1 {
+        position: absolute;
+        color: #e44c21;
+        right: 20px;
+        top: 5px;
+    
+    
+    
+    }
+    
+    .photos-1 {
+        width: 80vw;
+        height: 10vh;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        margin-left: 0;
+        
+
+        
+    
+    }
+    .image-container
+    {
+        width: 50%;
+        height: 100px;
+        display: flex;
+        
+
+    }
+    
+    .marcio {
+        display: inline;
+        width: 60px;
+        height: 60px;
+        border-color: blue;
+        border-style: solid;
+        border-radius: 50%;
+        /* position: relative; */
+        border-width: 4px;
+        z-index: 3;
+        /* left: -40px; */
+    
+    
+    
+    }
+    
+    .lola {
+    
+        display: inline;
+        width: 60px;
+        height: 60px;
+        border-color: chartreuse;
+        border-style: solid;
+        border-radius: 50%;
+        /* position: relative;
+        left: -60px; */
+        z-index: 2;
+        border-width: 4px;
+    
+    }
+    
+    .steshka {
+        display: inline;
+        width: 60px;
+        height: 60px;
+        border-color: white;
+        border-style: solid;
+        border-radius: 50%;
+        /* position: relative; */
+        z-index: 1;
+        /* left: -80px; */
+        border-width: 4px;
+    }
+    
+    .rein {
+        display: inline;
+        width: 60px;
+        height: 60px;
+        border-color: #e44c21;
+        border-style: solid;
+        border-radius: 50%;
+        /* position: relative;
+        left: -110px; */
+        z-index: 0;
+        border-width: 4px;
+    }
+    
+    .viewer {
+        padding-top: 20px;
+        padding-left: 40px;
+        display: inline;
+        color: gray;
+        font-size: 15px;
+    }
+    
+    .liked {
+       
+        padding-top: 20px;
+        color: gray;
+        font-size: 15px;
+    
+    
+    }
+    .viewer span
+    {
+        font-size: 25px;
+    }
+    .liked span{
+        font-size: 25px;
+    }
+    .how-does
+    {
+       
+        padding-bottom: 30px;
+        font-size: 30px;
+    }
+    .amet
+    {
+        font-size: 13px;
+        letter-spacing: 0;
+    }
+   
+    .button-view {
+        background-color: #e44c21;
+        color: aliceblue;
+        border-radius: 30px;
+        width: 120px;
+        height: 35px;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 300;
+        border: transparent;
+        padding-left: 10px;
+        margin-top: 35px;
+        margin-left: -80px;
+    
+    }
+    .arrow2 {
+        
+        padding-left: 5px;
+        padding-top: 37px;
+    
+    }
+    .two-third{
+        height: 340vh;
+    }
+    .three-third
+    {
+        height: 115vh;
+    }
+   
+    .c1,.c2,.c3{
+        margin-top: 10px;
+        min-width:225px ;
+    }
+    .sl4 hr{
+        width: 250px;
+    }
+    .sl1,.sl2,.sl4
+    {
+        padding:15px;
+    }
+    .second-cards {
+        
+        width: 70%;
+        margin: auto;
+        height: 85vh;
+        grid-template-columns: repeat(3, 1fr);
+        overflow-x: scroll;
+        gap: 100px;
+        padding-top: 20px;
+       
+    }
+    
+}
