@@ -3,14 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-::-webkit-scrollbar
-{
+
+::-webkit-scrollbar {
     width: 0;
 }
 
 .one-third {
     background-color: black;
-   
+
 }
 
 
@@ -215,10 +215,10 @@ nav span {
     padding-top: 70px;
 
 }
-.w
-{
+
+.w {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     width: 50%;
 }
 
@@ -375,31 +375,30 @@ span {
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "like_nav like_nav like_nav" "card1 card2 card3" "card4 card5 card6";
-    
+
 
 
 }
+
 .like-nav {
     width: 100%;
     height: 28vh;
-    /* display: flex;
-    align-items: start;
-    justify-content: space-between; */
+    padding: 50px;
+
 }
 
-/* .like-nav p {
-    margin-top: 35px;
-    margin-left: 50px;
-} */
-.like-nav p{
+
+.like-nav .section {
     display: flex;
+    justify-content: space-between;
 }
+
 .how-does {
     /* padding-bottom: 10px; */
     font-size: 50px;
     font-weight: bold;
-   
-    color:#e44c21;
+
+    color: #e44c21;
 }
 
 .amet {
@@ -409,12 +408,12 @@ span {
 }
 
 .b2 {
-   background-color: #e44c21;
-   width: fit-content;
-   padding: 10px 20px;
-   display: flex;
-   gap: 10px;
-   border-radius: 30px;
+    background-color: #e44c21;
+    width: fit-content;
+    padding: 10px 20px;
+    display: flex;
+    gap: 10px;
+    border-radius: 30px;
 
 }
 
@@ -424,16 +423,16 @@ span {
     font-size: 25px;
     font-weight: 300;
     border: transparent;
-  
-   
+
+
 
 }
 
 .arrow2 {
     color: white;
- 
 
-} 
+
+}
 
 
 .grid {
@@ -634,7 +633,7 @@ span {
 }
 
 .par-3 {
-   
+
     width: 100%;
     padding-top: 50px;
     display: flex;
@@ -670,18 +669,18 @@ span {
     display: grid;
     width: 70%;
     margin: auto;
-    
+
     grid-template-columns: repeat(3, 1fr);
     gap: 100px;
     padding-top: 20px;
-   
+
 
 
 
 }
 
 .c1 {
-    
+
 
     padding: 30px;
     border: 1px solid gray;
@@ -690,7 +689,7 @@ span {
 }
 
 .c2 {
-    
+
     background-image: url(./background_blur.png);
     padding: 30px;
     border: 1px solid gray;
@@ -700,8 +699,8 @@ span {
 }
 
 .c3 {
-    
-   
+
+
     padding: 30px;
     border: 1px solid gray;
     border-radius: 10px;
@@ -828,7 +827,7 @@ sup {
     background-image: url(./background_blur.png);
     background-size: 100%;
     display: grid;
-    
+
     width: 100%;
     margin: auto;
     grid-template-columns: repeat(3, 1fr);
@@ -839,7 +838,7 @@ sup {
 .sl1 {
     padding: 30px;
     background-color: transparent;
-    
+
 
 }
 
@@ -1004,20 +1003,23 @@ label {
     .two-third {
         height: 170vh;
     }
-    .three-third
-    {
+
+    .three-third {
         height: 250vh;
     }
-    .second-cards
-    {
-        grid-template-columns: repeat(1,1fr);
+
+    .second-cards {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .c1,.c2,.c3
-    {
+
+    .c1,
+    .c2,
+    .c3 {
         max-width: 500px;
     }
-    .footer{
-        grid-template-columns: repeat(2,1fr);
+
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
         height: 100vh;
     }
 }
@@ -1047,36 +1049,36 @@ label {
         width: 100%;
         margin-left: 50px;
     }
+
     .like-nav p {
         margin-top: 0px;
         margin-left: 50px;
     }
-    .arrow2 {
-        color: white;
-        position: absolute;
-        padding-left: 25px;
-        padding-top: 65px;
-    
+
+    .b2 {
+        background-color: #e44c21;
+        width: fit-content;
+        padding: 10px 20px;
+        display: flex;
+        gap: 10px;
+        border-radius: 30px;
     }
-    .b2
-    {
-        margin-right: 20px;
-        margin-top: 20px;
-    }
+
     .button-view {
         background-color: #e44c21;
         color: aliceblue;
-        border-radius: 30px;
-        width: 140px;
-        height: 40px;
-        text-align: left;
-        font-size: 20px;
-        font-weight: 200;
+        font-size: 25px;
+        font-weight: 300;
         border: transparent;
-        padding-left: 20px;
-        margin-top: 60px;
-        margin-left: -80px;
+
     }
+
+    .arrow2 {
+        color: white;
+
+
+    }
+
     .marcio {
         display: inline;
         width: 70px;
@@ -1088,13 +1090,13 @@ label {
         border-width: 4px;
         z-index: 3;
         /* left: -40px; */
-    
-    
-    
+
+
+
     }
-    
+
     .lola {
-    
+
         display: inline;
         width: 70px;
         height: 70px;
@@ -1105,9 +1107,9 @@ label {
         left: -60px; */
         z-index: 2;
         border-width: 4px;
-    
+
     }
-    
+
     .steshka {
         display: inline;
         width: 70px;
@@ -1120,7 +1122,7 @@ label {
         /* left: -80px; */
         border-width: 4px;
     }
-    
+
     .rein {
         display: inline;
         width: 70px;
@@ -1133,13 +1135,13 @@ label {
         z-index: 0;
         border-width: 4px;
     }
-    .how-does
-    {
+
+    .how-does {
         padding-bottom: 50px;
         font-size: 45px;
     }
-    .amet
-    {
+
+    .amet {
         font-size: 20px;
         letter-spacing: 0;
     }
@@ -1152,41 +1154,72 @@ label {
     .two-third {
         height: 320vh;
     }
-    .three-third
-    {
+
+    .b2 {
+        /* background-color: #e44c21; */
+        width: fit-content;
+        padding: 5px 10px;
+        display: flex;
+        gap: 5px;
+        border-radius: 30px;
+        height: 50px;
+        width:190px;
+    }
+
+    .button-view {
+        /* background-color: #e44c21; */
+        color: aliceblue;
+        font-size: 25px;
+        font-weight: 300;
+
+
+    }
+
+    .arrow2 {
+        color: white;
+
+
+    }
+
+    .three-third {
         height: 100vh;
     }
 
     .par-3 {
-   
+
         background-color: black;
         width: 100%;
         height: 25vh;
         text-align: center;
     }
-    
+
     .simple-pricing {
         color: #e44c21;
         font-weight: bold;
         font-size: 40px;
-    
+
     }
-    
+
     .amet1 {
         font-size: 20px;
         color: gray;
         margin-top: -15px;
     }
-    
+
     .dolor1 {
-    
+
         font-size: 20px;
         color: gray;
         margin-top: -15px;
         text-align: center;
     }
+    .like-nav
+    {
+        padding: 10px;
+    }
+
     .second-cards {
-        
+
         width: 70%;
         margin: auto;
         height: 70vh;
@@ -1194,12 +1227,16 @@ label {
         overflow-x: scroll;
         gap: 100px;
         padding-top: 20px;
-       
+
     }
-    .c1,.c2,.c3{
-        min-width:300px ;
+
+    .c1,
+    .c2,
+    .c3 {
+        min-width: 300px;
     }
-    .radio{
+
+    .radio {
         display: none;
     }
 
@@ -1225,49 +1262,50 @@ label {
     .button-view-1 {
         background-color: black;
     }
-    .sl1,.sl2,.sl4{
+
+    .sl1,
+    .sl2,
+    .sl4 {
         max-width: 350px;
     }
 
 }
-@media (max-width:400px)
-{
-    .one-third{
-        
-    }
-    
+
+@media (max-width:400px) {
+    .one-third {}
+
     span {
-    
+
         font-size: 40px;
-        
+
     }
-  
-   
-    
+
+
+
     .par {
         color: white;
-    
+
         font-size: 30px;
-    
-    
+
+
     }
-    
-    
-    
-    
-    
- 
-    
+
+
+
+
+
+
+
     .arrow1 {
         position: absolute;
         color: #e44c21;
         right: 20px;
         top: 5px;
-    
-    
-    
+
+
+
     }
-    
+
     .photos-1 {
         width: 80vw;
         height: 10vh;
@@ -1276,20 +1314,20 @@ label {
         justify-content: space-evenly;
         padding: 0;
         margin-left: 0;
-        
 
-        
-    
+
+
+
     }
-    .image-container
-    {
+
+    .image-container {
         width: 50%;
         height: 100px;
         display: flex;
-        
+
 
     }
-    
+
     .marcio {
         display: inline;
         width: 60px;
@@ -1301,13 +1339,13 @@ label {
         border-width: 4px;
         z-index: 3;
         /* left: -40px; */
-    
-    
-    
+
+
+
     }
-    
+
     .lola {
-    
+
         display: inline;
         width: 60px;
         height: 60px;
@@ -1318,9 +1356,9 @@ label {
         left: -60px; */
         z-index: 2;
         border-width: 4px;
-    
+
     }
-    
+
     .steshka {
         display: inline;
         width: 60px;
@@ -1333,7 +1371,7 @@ label {
         /* left: -80px; */
         border-width: 4px;
     }
-    
+
     .rein {
         display: inline;
         width: 60px;
@@ -1346,7 +1384,7 @@ label {
         z-index: 0;
         border-width: 4px;
     }
-    
+
     .viewer {
         padding-top: 20px;
         padding-left: 40px;
@@ -1354,76 +1392,92 @@ label {
         color: gray;
         font-size: 15px;
     }
-    
+
     .liked {
-       
+
         padding-top: 20px;
         color: gray;
         font-size: 15px;
-    
-    
+
+
     }
-    .viewer span
-    {
+
+    .viewer span {
         font-size: 25px;
     }
-    .liked span{
+
+    .liked span {
         font-size: 25px;
     }
-    .how-does
-    {
-       
+
+    .how-does {
+
         padding-bottom: 30px;
         font-size: 30px;
     }
-    .amet
-    {
-        font-size: 13px;
+
+    .amet {
+        font-size: 25px;
         letter-spacing: 0;
     }
-   
+    .like-nav{
+        padding: 0;
+        padding-top: 30px;
+    }
+
+    .b2 {
+        background-color: #e44c21;
+        width: fit-content;
+        padding: 5px 10px;
+        display: flex;
+        gap: 5px;
+        border-radius: 30px;
+        width: 140px;
+
+    }
+
     .button-view {
         background-color: #e44c21;
         color: aliceblue;
-        border-radius: 30px;
-        width: 120px;
-        height: 35px;
-        text-align: left;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 300;
         border: transparent;
-        padding-left: 10px;
-        margin-top: 35px;
-        margin-left: -80px;
-    
+
     }
+
     .arrow2 {
-        
-        padding-left: 5px;
-        padding-top: 37px;
-    
+        color: white;
+
+
     }
-    .two-third{
+
+    .two-third {
         height: 340vh;
     }
-    .three-third
-    {
+
+    .three-third {
         height: 115vh;
     }
-   
-    .c1,.c2,.c3{
+
+    .c1,
+    .c2,
+    .c3 {
         margin-top: 10px;
-        min-width:225px ;
+        min-width: 225px;
     }
-    .sl4 hr{
+
+    .sl4 hr {
         width: 250px;
     }
-    .sl1,.sl2,.sl4
-    {
-        padding:15px;
+
+    .sl1,
+    .sl2,
+    .sl4 {
+        padding: 15px;
     }
+
     .second-cards {
-        
+
         width: 70%;
         margin: auto;
         height: 85vh;
@@ -1431,7 +1485,7 @@ label {
         overflow-x: scroll;
         gap: 100px;
         padding-top: 20px;
-       
+
     }
-    
+
 }
