@@ -10,7 +10,7 @@
 
 .one-third {
     background-color: black;
-    height: 100vh;
+   
 }
 
 
@@ -382,21 +382,23 @@ span {
 .like-nav {
     width: 100%;
     height: 28vh;
-    display: flex;
+    /* display: flex;
     align-items: start;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
-.like-nav p {
+/* .like-nav p {
     margin-top: 35px;
     margin-left: 50px;
+} */
+.like-nav p{
+    display: flex;
 }
-
 .how-does {
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     font-size: 50px;
     font-weight: bold;
-    display: inline-block;
+   
     color:#e44c21;
 }
 
@@ -407,35 +409,31 @@ span {
 }
 
 .b2 {
-    margin-top: 20px;
-    margin-right: 45px;
-    position: relative;
+   background-color: #e44c21;
+   width: fit-content;
+   padding: 10px 20px;
+   display: flex;
+   gap: 10px;
+   border-radius: 30px;
 
 }
 
 .button-view {
     background-color: #e44c21;
     color: aliceblue;
-    border-radius: 30px;
-    width: 200px;
-    height: 50px;
-    text-align: left;
     font-size: 25px;
     font-weight: 300;
     border: transparent;
-    padding-left: 30px;
-    margin-top: 40px;
-    margin-left: -80px;
+  
+   
 
 }
 
 .arrow2 {
     color: white;
-    position: absolute;
-    padding-left: 60px;
-    padding-top: 48px;
+ 
 
-}
+} 
 
 
 .grid {
@@ -631,16 +629,17 @@ span {
 
 .three-third {
     background-color: black;
-    height: 100vh;
+    padding-bottom: 10px;
     width: 100%;
 }
 
 .par-3 {
    
     width: 100%;
-    height: 25vh;
-    margin-top: 50px;
-    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .simple-pricing {
@@ -651,9 +650,12 @@ span {
 }
 
 .amet1 {
+    padding-top: 20px;
     font-size: 40px;
     color: gray;
     margin-top: -15px;
+    width: 55%;
+    text-align: center;
 }
 
 .dolor1 {
@@ -668,7 +670,7 @@ span {
     display: grid;
     width: 70%;
     margin: auto;
-    height: 60vh;
+    
     grid-template-columns: repeat(3, 1fr);
     gap: 100px;
     padding-top: 20px;
@@ -826,7 +828,7 @@ sup {
     background-image: url(./background_blur.png);
     background-size: 100%;
     display: grid;
-    height: 50vh;
+    
     width: 100%;
     margin: auto;
     grid-template-columns: repeat(3, 1fr);
